@@ -1,0 +1,16 @@
+<ul class="reviews">
+  <% @reviews.each do |r| %>
+    <li>
+      <%= render "shared/stars", percent: r.stars_as_percent %>
+      <p style="margin-top: .5rem">
+        <%= link_to r.user.name, r.user %>
+        <span class="date">
+          <%= time_ago_in_words(r.created_at) %> ago
+        </span>
+      </p>
+      <p>
+        <%= r.comment %>
+      </p>
+    </li>
+  <% end %>
+</ul>
