@@ -1,3 +1,6 @@
+In the process of learning Ruby on Rails by following along with The Pragmatic Studio Rails course!
+
+<!---
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +25,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+-->
